@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 07bb441f322d4a9429a038b09307223f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 63
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 393
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decff3cc07075614c83ff229f72fc539
+      internalID: -1838861718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 393
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d97c0160299c0041b520791658b09f6
+      internalID: -1692984060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 393
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40776f79b74f0949a8637ca73947c36
+      internalID: 274103061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 393
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f503cd518bb7438fff8776d8cda42
+      internalID: -356910403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6f1750decd4d041a0872bf27e7a0a8
+      internalID: -1714162739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaae0f4463247b49affad2bd5df838c
+      internalID: 38712982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8613dbdebd62df4da88620573eeeec1
+      internalID: -1123220196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d63a620f5f34844cbb3242e76107ff9
+      internalID: -63559084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57199c55c1f28e47be54cb60a502ed0
+      internalID: 853868865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7891a682780f9a14296f641c4a9c2ff1
+      internalID: -240558590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ff46cdebf2d6144a043121ad076410
+      internalID: -1240839988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361d84b20119a44f9bec94981fd6ab0
+      internalID: 93690747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447db9548306344a87292045aede6d3
+      internalID: 1081612802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_13
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1da5b02ac536e449af59b460c10e38
+      internalID: -1326088327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 324
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be48bd2dc838b14b847f45c1d3e25ad
+      internalID: 732414318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d86e37c9ac24b4b9f5e9264a1ca69e
+      internalID: -132917156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 253
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41fa21b8bcebc499e9c2ffb720d101
+      internalID: -1189402165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb31943e545ea9f488bf47bbbcee733e
+      internalID: 39568181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf7bd0382a75df4c879f40145944da5
+      internalID: 1733002263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e493502cf659d4fae6d939f722070a
+      internalID: 313638356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d6dca969fa85c4781e442ba6f7b146
+      internalID: -296276522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc733fa31d18114583bd4b02a6076bf
+      internalID: 2052044761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4790fdc8a64e8945b43840945e7bb58
+      internalID: -390945217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d8e50ecb4ec5c4697b27dc84d36f9b
+      internalID: -1132363886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_24
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e761a8fd2d4e7e548b0d225f34e3a5f2
+      internalID: 1697408943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe13124d8e44ff4fb9f7a1d6aba55c2
+      internalID: 615866476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69fc24c1eae2df478756a8bed818a0e
+      internalID: 1564820711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1457fdd5f49ddd947a8d5edac897d9bb
+      internalID: 1630473749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0084b35d0a8064e48be980ec1631a253
+      internalID: 1735371481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f7986c63c07434bb75983d5f546156
+      internalID: 211592519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa92591f42962a4b97812d21b36d592
+      internalID: 394526405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6916b2141cd4c4887e47b64e41d10e
+      internalID: -164564416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_32
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bce373550b32b4fafa195cbd9bc15a
+      internalID: 1726756132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_33
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fe85d4721a3f4429c0cee7b826ed30
+      internalID: -608930848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_34
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 185
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7b6836e8142c45b12e6109281f6ba
+      internalID: 492051674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_35
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2415faefcd71154bbc73d610c079741
+      internalID: -966738870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_36
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee323d6b200fda4ca29fb5f99310b35
+      internalID: -1144848028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_37
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0fee832e48f10488f2e22e5f84dd23
+      internalID: 742321628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Cabin - Finished -More shade_38
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 115
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca5c0016f3ab6e44805ad736cbd0c63
+      internalID: 954269086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: da80e512ce439b24985b2882863fd374
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wall Cabin - Finished -More shade_0: -1838861718
+      Wall Cabin - Finished -More shade_1: -1692984060
+      Wall Cabin - Finished -More shade_10: -1240839988
+      Wall Cabin - Finished -More shade_11: 93690747
+      Wall Cabin - Finished -More shade_12: 1081612802
+      Wall Cabin - Finished -More shade_13: -1326088327
+      Wall Cabin - Finished -More shade_14: 732414318
+      Wall Cabin - Finished -More shade_15: -132917156
+      Wall Cabin - Finished -More shade_16: -1189402165
+      Wall Cabin - Finished -More shade_17: 39568181
+      Wall Cabin - Finished -More shade_18: 1733002263
+      Wall Cabin - Finished -More shade_19: 313638356
+      Wall Cabin - Finished -More shade_2: 274103061
+      Wall Cabin - Finished -More shade_20: -296276522
+      Wall Cabin - Finished -More shade_21: 2052044761
+      Wall Cabin - Finished -More shade_22: -390945217
+      Wall Cabin - Finished -More shade_23: -1132363886
+      Wall Cabin - Finished -More shade_24: 1697408943
+      Wall Cabin - Finished -More shade_25: 615866476
+      Wall Cabin - Finished -More shade_26: 1564820711
+      Wall Cabin - Finished -More shade_27: 1630473749
+      Wall Cabin - Finished -More shade_28: 1735371481
+      Wall Cabin - Finished -More shade_29: 211592519
+      Wall Cabin - Finished -More shade_3: -356910403
+      Wall Cabin - Finished -More shade_30: 394526405
+      Wall Cabin - Finished -More shade_31: -164564416
+      Wall Cabin - Finished -More shade_32: 1726756132
+      Wall Cabin - Finished -More shade_33: -608930848
+      Wall Cabin - Finished -More shade_34: 492051674
+      Wall Cabin - Finished -More shade_35: -966738870
+      Wall Cabin - Finished -More shade_36: -1144848028
+      Wall Cabin - Finished -More shade_37: 742321628
+      Wall Cabin - Finished -More shade_38: 954269086
+      Wall Cabin - Finished -More shade_4: -1714162739
+      Wall Cabin - Finished -More shade_5: 38712982
+      Wall Cabin - Finished -More shade_6: -1123220196
+      Wall Cabin - Finished -More shade_7: -63559084
+      Wall Cabin - Finished -More shade_8: 853868865
+      Wall Cabin - Finished -More shade_9: -240558590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

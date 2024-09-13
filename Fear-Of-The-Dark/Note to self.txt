@@ -1,0 +1,3 @@
+Poista library ennen pushaus/commit.
+
+Jos merge conflict löytyy kun yrittää pullata, poista kaikki tiedostot ja pidä mitä olet tehnyt muutokset
