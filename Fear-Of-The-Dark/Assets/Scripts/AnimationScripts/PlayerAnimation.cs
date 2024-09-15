@@ -9,6 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     public Animator anim;
     private PlayerController playerController;
     private Vector3 moveDirection;
+    private Vector3 lastMoveDirection;
     
     
     void Start()
@@ -30,20 +31,33 @@ public class PlayerAnimation : MonoBehaviour
         if (playerController.isMoving)
         {
             moveDirection = (playerController.targetPosition - transform.position).normalized;
+            // When moving lastMoveDirection changes by moveDirection
+            lastMoveDirection = moveDirection;
+            
         }
         else
         {
-            moveDirection = Vector3.zero;
+            moveDirection = Vector3.zero;           
         }
+        
+
+        
     }
 
     // SetFloat x and y if isMoving = true and animate accordingly in blendtree
-    public void Animate()
+    // If isMoving = false set idle animation by lastMoveDirection in another blendtree
+    void Animate()
     {
         anim.SetFloat("Horizontal", moveDirection.x);
         anim.SetFloat("Vertical", moveDirection.y);
-        anim.SetBool("isMoving", playerController.isMoving);
+        anim.SetBool("isMoving", playerController.isMoving);        
+        anim.SetFloat("HorizontalIdle", lastMoveDirection.x);       
+        anim.SetFloat("VerticalIdle", lastMoveDirection.y);
+       
     }
+
+    
+
 
     
 }
