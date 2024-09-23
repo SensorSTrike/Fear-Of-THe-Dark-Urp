@@ -1,11 +1,10 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private Animator animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         // Get the Animator component attached to the UI element
@@ -28,5 +27,13 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             animator.SetTrigger("HoverExit");
         }
         Debug.Log("Hower Exit detected" + gameObject.name);
+    }
+     public void OnPointerClick(PointerEventData eventData)
+    {
+        if ( transform.name == "UI-EquipmentBack1")
+        {
+            animator.SetTrigger("SelectCard1");
+        }
+        Debug.Log("Player clicked card: " + transform.name);
     }
 }
