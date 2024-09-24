@@ -15,7 +15,7 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         if (animator != null)
         {
-            animator.SetTrigger("HoverEnter");
+            animator.SetBool("HoverEnterBool", true);
         }
         Debug.Log("Hower Enter detected" + gameObject.name);
     }
@@ -24,7 +24,7 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         if (animator != null)
         {
-            animator.SetTrigger("HoverExit");
+            animator.SetBool("HoverEnterBool", false);
         }
         Debug.Log("Hower Exit detected" + gameObject.name);
     }
@@ -33,6 +33,18 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         if ( transform.name == "UI-EquipmentBack1")
         {
             animator.SetTrigger("SelectCard1");
+        }
+		else if ( transform.name == "UI-EquipmentBack2")
+        {
+            animator.SetTrigger("SelectCard2");
+        }
+		else if ( transform.name == "UI-EquipmentBack3")
+        {
+            animator.SetTrigger("SelectCard3");
+        }
+		else if ( transform.name == "UI-EquipmentBack4")
+        {
+            animator.SetTrigger("SelectCard4");
         }
         Debug.Log("Player clicked card: " + transform.name);
     }
