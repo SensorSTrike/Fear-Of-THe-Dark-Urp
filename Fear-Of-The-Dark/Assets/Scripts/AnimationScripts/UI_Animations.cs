@@ -32,7 +32,7 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         if ( transform.name == "UI-EquipmentBack1")
         {
-            animator.SetTrigger("SelectCard1");
+			animator.SetTrigger("SelectCard1");
         }
 		else if ( transform.name == "UI-EquipmentBack2")
         {
