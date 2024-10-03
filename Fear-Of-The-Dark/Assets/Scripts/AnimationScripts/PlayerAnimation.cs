@@ -37,7 +37,7 @@ public class PlayerAnimation : MonoBehaviour
         }
         else
         {
-            moveDirection = Vector3.zero;           
+            moveDirection = lastMoveDirection;           
         }
         
 
