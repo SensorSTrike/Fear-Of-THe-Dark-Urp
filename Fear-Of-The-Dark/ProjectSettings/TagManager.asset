@@ -13,6 +13,7 @@ TagManager:
   - Axe
   - Katana
   - Gun
+  - Shotgun
   layers:
   - Default
   - TransparentFX

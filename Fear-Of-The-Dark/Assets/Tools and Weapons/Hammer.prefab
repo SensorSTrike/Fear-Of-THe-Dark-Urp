@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 666115924435182122}
   - component: {fileID: 6924428073081875786}
   - component: {fileID: -4457903508565726287}
-  - component: {fileID: -5942920251618649824}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Hammer
@@ -106,7 +105,7 @@ MonoBehaviour:
   - {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
   - {fileID: 9082559412315700598, guid: 1b44a82fe99cd98408545e9f3a7b7490, type: 3}
   WeaponIndex: 0
-  ItemAnimator: {fileID: -5942920251618649824}
+  ItemAnimator: {fileID: 0}
   UIinventory: {fileID: 3679191012478628947, guid: 2caa862563523a94e81cc05bb0cae2cd, type: 3}
 --- !u!70 &-4457903508565726287
 CapsuleCollider2D:
@@ -143,24 +142,3 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.34, y: 0.47}
   m_Direction: 0
---- !u!95 &-5942920251618649824
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8336428574614841253}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 97a89cf971d3d9d4eb2af83b9c5acce8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0

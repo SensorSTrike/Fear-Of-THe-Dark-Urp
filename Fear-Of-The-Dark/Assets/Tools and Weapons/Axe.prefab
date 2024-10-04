@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8673688749771144971}
   - component: {fileID: 1095252580459110349}
-  - component: {fileID: 4956657901086664940}
+  - component: {fileID: 2944398899700368056}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Axe
@@ -85,26 +85,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!136 &4956657901086664940
-CapsuleCollider:
+--- !u!114 &2944398899700368056
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7891014777054083441}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.205
-  m_Height: 0.55
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c1d44d9c6f9db4896901a91f933f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHand: {fileID: 0}
+  weapons:
+  - {fileID: 8336428574614841253, guid: 53659748ccaaca24f8c8bbb7f325ba10, type: 3}
+  - {fileID: 7891014777054083441}
+  - {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
+  - {fileID: 9082559412315700598, guid: 1b44a82fe99cd98408545e9f3a7b7490, type: 3}
+  WeaponIndex: 1
+  ItemAnimator: {fileID: 0}
+  UIinventory: {fileID: 0}

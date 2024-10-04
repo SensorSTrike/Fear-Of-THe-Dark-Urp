@@ -3,31 +3,24 @@ using UnityEngine;
 public class ItemScript : MonoBehaviour
 {
     public GameObject playerHand;
-
     public GameObject[] weapons;
+    public GameObject[] InventoryImages;
+    public int InventoryImageIndex;
     public int WeaponIndex; 
-
     public Animator ItemAnimator;
-    [SerializeField]
-    GameObject UIinventory;
 
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    public void Update()
-    {
 
     }
-
     public void TakeItem()
     {
-        //Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
+        Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
         string itemName = gameObject.tag;
         string InventoryName = itemName + "Inventory";
         ItemAnimator.SetBool(InventoryName, true);
+
+        Debug.Log("Sinun inventoorin nimi on : " + InventoryName);
         Destroy(gameObject);
     }
 
@@ -36,7 +29,7 @@ public class ItemScript : MonoBehaviour
         Debug.Log("YOU COLLIDED");
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("You collided hammer picked up");
+            Debug.Log("You collided weapon picked up");
             TakeItem();
         }
 

@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class ScrollAnimatorParameter : MonoBehaviour
+public class AnimationScroll : MonoBehaviour
 {
     public Animator animator; // Reference to the Animator component
-    public string parameterName = "parameter"; // The name of the parameter to change
+    public string parameterName = "EquipmentSlot"; // The name of the parameter to change
     private int currentValue = 1; // Initial value of the parameter
     private float scrollCooldown = 1.0f; // Cooldown time between changes in seconds
     private float lastScrollTime; // To keep track of the last time the scroll input was registered
