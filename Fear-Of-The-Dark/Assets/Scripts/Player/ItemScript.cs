@@ -4,8 +4,6 @@ public class ItemScript : MonoBehaviour
 {
     public GameObject playerHand;
     public GameObject[] weapons;
-    public GameObject[] InventoryImages;
-    public int InventoryImageIndex;
     public int WeaponIndex; 
     public Animator ItemAnimator;
 
@@ -15,7 +13,7 @@ public class ItemScript : MonoBehaviour
     }
     public void TakeItem()
     {
-        Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
+        //Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
         string itemName = gameObject.tag;
         string InventoryName = itemName + "Inventory";
         ItemAnimator.SetBool(InventoryName, true);
