@@ -9,6 +9,7 @@ public class UI_Animations : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         // Get the Animator component attached to the UI element
         animator = GetComponent<Animator>();
+       
     }
 
     public void OnPointerEnter(PointerEventData eventData)

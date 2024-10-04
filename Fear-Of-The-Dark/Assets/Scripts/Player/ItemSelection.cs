@@ -8,6 +8,7 @@ public class ItemSelection : MonoBehaviour
     public GameObject Axe;
     public GameObject Gun;
     public GameObject Hammer;
+    public GameObject Katana;
     [SerializeField] Transform playerHands;
     
 
@@ -21,15 +22,19 @@ public class ItemSelection : MonoBehaviour
     {
         if (Input.GetKeyDown("1"))
         {
-            Instantiate(Gun, playerHands);
+            Instantiate(Hammer, playerHands);
         }
         if (Input.GetKeyDown("2"))
         {
-            Instantiate(Hammer, playerHands);
+            Instantiate(Axe, playerHands);
         }
         if(Input.GetKeyDown("3"))
         {
-            Instantiate(Axe, playerHands);
+            Instantiate(Katana, playerHands);
+        }
+        if (Input.GetKeyDown("4"))
+        {
+            Instantiate(Gun, playerHands);
         }
     }
 }

@@ -1,14 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemScript : MonoBehaviour
 {
     public GameObject playerHand;
 
-    bool canTake;
+    public GameObject[] weapons;
+    public int WeaponIndex; 
 
-    GameObject item;
+    public Animator ItemAnimator;
+    [SerializeField]
+    GameObject UIinventory;
 
     void Start()
     {
@@ -16,32 +17,28 @@ public class ItemScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+
     }
 
-    void TakeItem()
+    public void TakeItem()
     {
-        if (canTake == true)
-        {
-            if (Input.GetKeyDown("f"))
-            {
-                
-            }
-        }
+        //Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
+        string itemName = gameObject.tag;
+        string InventoryName = itemName + "Inventory";
+        ItemAnimator.SetBool(InventoryName, true);
+        Destroy(gameObject);
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Axe")
+        Debug.Log("YOU COLLIDED");
+        if (other.gameObject.CompareTag("Player"))
         {
-            canTake = true;
-            item = other.gameObject;
+            Debug.Log("You collided hammer picked up");
+            TakeItem();
         }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        canTake = false;
+
     }
 }

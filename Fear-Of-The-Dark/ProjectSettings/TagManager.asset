@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Weapon
+  - Slot1
+  - Slot2
+  - Slot3
+  - Slot4
+  - Hammer
+  - Axe
+  - Katana
+  - Gun
   layers:
   - Default
   - TransparentFX
