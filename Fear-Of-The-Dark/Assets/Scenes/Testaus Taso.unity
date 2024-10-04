@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 158392697}
   - component: {fileID: 158392698}
   m_Layer: 0
-  m_Name: Entry point (9)
+  m_Name: Entry point L3
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 192261780}
   - component: {fileID: 192261781}
   m_Layer: 0
-  m_Name: Entry point (18)
+  m_Name: Entry point B1
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1005,7 +1005,7 @@ GameObject:
   - component: {fileID: 222921815}
   - component: {fileID: 222921816}
   m_Layer: 0
-  m_Name: Entry point (2)
+  m_Name: Entry point U3.1
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6077,7 +6077,7 @@ GameObject:
   - component: {fileID: 316424554}
   - component: {fileID: 316424555}
   m_Layer: 0
-  m_Name: Entry point (23)
+  m_Name: Entry point R3
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6796,7 +6796,7 @@ GameObject:
   - component: {fileID: 468946083}
   - component: {fileID: 468946084}
   m_Layer: 0
-  m_Name: Entry point (4)
+  m_Name: Entry point U5
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6880,7 +6880,7 @@ GameObject:
   - component: {fileID: 488600701}
   - component: {fileID: 488600702}
   m_Layer: 0
-  m_Name: Entry point (11)
+  m_Name: Entry point L1
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7250,8 +7250,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.43, y: 0.77}
-    newSize: {x: 0.43, y: 0.77}
+    oldSize: {x: 0.26, y: 0.64}
+    newSize: {x: 0.26, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -7407,7 +7407,7 @@ GameObject:
   - component: {fileID: 575780144}
   - component: {fileID: 575780145}
   m_Layer: 0
-  m_Name: Entry point (10)
+  m_Name: Entry point L2
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7491,7 +7491,7 @@ GameObject:
   - component: {fileID: 592791798}
   - component: {fileID: 592791799}
   m_Layer: 0
-  m_Name: Entry point (21)
+  m_Name: Entry point R5
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7898,7 +7898,7 @@ GameObject:
   - component: {fileID: 839416500}
   - component: {fileID: 839416501}
   m_Layer: 0
-  m_Name: Entry point (16)
+  m_Name: Entry point B3
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7982,7 +7982,7 @@ GameObject:
   - component: {fileID: 844864688}
   - component: {fileID: 844864689}
   m_Layer: 0
-  m_Name: Entry point (8)
+  m_Name: Entry point L4
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -8388,7 +8388,7 @@ GameObject:
   - component: {fileID: 1026610182}
   - component: {fileID: 1026610183}
   m_Layer: 0
-  m_Name: Entry point (12)
+  m_Name: Entry point B6
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9079,7 +9079,7 @@ GameObject:
   - component: {fileID: 1110424532}
   - component: {fileID: 1110424533}
   m_Layer: 0
-  m_Name: Entry point (14)
+  m_Name: Entry point B4
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9281,7 +9281,7 @@ GameObject:
   - component: {fileID: 1119570947}
   - component: {fileID: 1119570948}
   m_Layer: 0
-  m_Name: Entry point (3)
+  m_Name: Entry point U4
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -10619,7 +10619,7 @@ GameObject:
   - component: {fileID: 1285350088}
   - component: {fileID: 1285350089}
   m_Layer: 0
-  m_Name: Entry point (13)
+  m_Name: Entry point B5
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -15820,7 +15820,7 @@ GameObject:
   - component: {fileID: 1379728989}
   - component: {fileID: 1379728988}
   m_Layer: 0
-  m_Name: Entry point (15)
+  m_Name: Entry point U3.2
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16135,7 +16135,7 @@ GameObject:
   - component: {fileID: 1417785869}
   - component: {fileID: 1417785870}
   m_Layer: 0
-  m_Name: Entry point (7)
+  m_Name: Entry point L5
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16647,7 +16647,7 @@ GameObject:
   - component: {fileID: 1612159975}
   - component: {fileID: 1612159976}
   m_Layer: 0
-  m_Name: Entry point (20)
+  m_Name: Entry point R6
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16731,7 +16731,7 @@ GameObject:
   - component: {fileID: 1632785013}
   - component: {fileID: 1632785014}
   m_Layer: 0
-  m_Name: Entry point
+  m_Name: Entry point R2
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16890,7 +16890,7 @@ GameObject:
   - component: {fileID: 1715684483}
   - component: {fileID: 1715684484}
   m_Layer: 0
-  m_Name: Entry point (1)
+  m_Name: Entry point R1
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -17049,7 +17049,7 @@ GameObject:
   - component: {fileID: 1757921856}
   - component: {fileID: 1757921857}
   m_Layer: 0
-  m_Name: Entry point (19)
+  m_Name: Entry point R7
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -17443,7 +17443,7 @@ GameObject:
   - component: {fileID: 1855722542}
   - component: {fileID: 1855722543}
   m_Layer: 0
-  m_Name: Entry point (17)
+  m_Name: Entry point B2
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -18547,7 +18547,7 @@ GameObject:
   - component: {fileID: 1973667934}
   - component: {fileID: 1973667935}
   m_Layer: 0
-  m_Name: Entry point (5)
+  m_Name: Entry point U2
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -18699,7 +18699,7 @@ GameObject:
   - component: {fileID: 1982404188}
   - component: {fileID: 1982404189}
   m_Layer: 0
-  m_Name: Entry point (22)
+  m_Name: Entry point R4
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -19740,30 +19740,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1632785013}
   - {fileID: 1715684483}
+  - {fileID: 1632785013}
+  - {fileID: 316424554}
+  - {fileID: 1982404188}
+  - {fileID: 592791798}
+  - {fileID: 1612159975}
+  - {fileID: 1757921856}
+  - {fileID: 192261780}
+  - {fileID: 1855722542}
+  - {fileID: 839416500}
+  - {fileID: 1110424532}
+  - {fileID: 1285350088}
+  - {fileID: 1026610182}
+  - {fileID: 488600701}
+  - {fileID: 575780144}
+  - {fileID: 158392697}
+  - {fileID: 844864688}
+  - {fileID: 1417785869}
+  - {fileID: 2077658495}
+  - {fileID: 1973667934}
   - {fileID: 222921815}
   - {fileID: 1379728987}
   - {fileID: 1119570947}
   - {fileID: 468946083}
-  - {fileID: 1973667934}
-  - {fileID: 2077658495}
-  - {fileID: 1417785869}
-  - {fileID: 844864688}
-  - {fileID: 158392697}
-  - {fileID: 575780144}
-  - {fileID: 488600701}
-  - {fileID: 1026610182}
-  - {fileID: 1285350088}
-  - {fileID: 1110424532}
-  - {fileID: 839416500}
-  - {fileID: 1855722542}
-  - {fileID: 192261780}
-  - {fileID: 1757921856}
-  - {fileID: 1612159975}
-  - {fileID: 592791798}
-  - {fileID: 1982404188}
-  - {fileID: 316424554}
   m_Father: {fileID: 943429953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2058587255
@@ -19941,7 +19941,7 @@ GameObject:
   - component: {fileID: 2077658495}
   - component: {fileID: 2077658496}
   m_Layer: 0
-  m_Name: Entry point (6)
+  m_Name: Entry point U1
   m_TagString: EditorOnly
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
