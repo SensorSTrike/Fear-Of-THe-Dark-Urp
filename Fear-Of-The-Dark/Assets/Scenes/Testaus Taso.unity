@@ -18750,7 +18750,7 @@ Tilemap:
     m_Data: {r: 3.8642e-41, g: 3.8642e-41, b: 3.8642e-41, a: 3.8642e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.92, g: 0.92, b: 0.92, a: 1}
   m_Origin: {x: -13, y: -6, z: 0}
   m_Size: {x: 19, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -19483,6 +19483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138567387}
   - component: {fileID: 2138567388}
+  - component: {fileID: 2138567389}
   m_Layer: 0
   m_Name: Light 2D (1)
   m_TagString: Untagged
@@ -19522,7 +19523,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.024752785, b: 0, a: 1}
-  m_Intensity: 2.63
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -19544,7 +19545,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 0
   m_PointLightOuterAngle: 78.51
   m_PointLightInnerRadius: 1.1080804
-  m_PointLightOuterRadius: 1.12
+  m_PointLightOuterRadius: 3
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -19555,6 +19556,19 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &2138567389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138567386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc29ca782eecb1b49b1d984b89ff8231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationOffset: -90
 --- !u!1001 &1613082544230863840
 PrefabInstance:
   m_ObjectHideFlags: 0
