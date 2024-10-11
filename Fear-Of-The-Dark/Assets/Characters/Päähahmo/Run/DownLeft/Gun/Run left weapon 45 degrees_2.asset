@@ -6,13 +6,13 @@ Sprite:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hero all sprites_130
+  m_Name: Run left weapon 45 degrees_2
   m_Rect:
     serializedVersion: 2
-    x: 934
-    y: 8
-    width: 26
-    height: 63
+    x: 66
+    y: 5
+    width: 30
+    height: 65
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
@@ -22,12 +22,12 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    2a1f9700beab1624885c7cad0446ad2c: 45852939
+    6efa0746f6bffac4c93e1d2a79902791: -2133318521
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 2a1f9700beab1624885c7cad0446ad2c, type: 3}
+    texture: {fileID: 2800000, guid: 6efa0746f6bffac4c93e1d2a79902791, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -103,22 +103,22 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: b81e05beae47a13e00000000b81e053eae47a13e00000000b81e05beae47a1be00000000b81e053eae47a1be00000000202a3d3fc1782b3e2d6e423fc1782b3e202a3d3fe8909a3c2d6e423fe8909a3c
+      _typelessdata: 9a9919be6666a63e000000009a99193e6666a63e000000009a9919be6666a6be000000009a99193e6666a6be00000000c3f5a83e8329723f8fc2f53e8329723fc3f5a83edd608a3d8fc2f53edd608a3d
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 934
-      y: 8
-      width: 26
-      height: 63
+      x: 66
+      y: 5
+      width: 30
+      height: 65
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 947, z: 100, w: 39.5}
+    uvTransform: {x: 100, y: 81, z: 100, w: 37.5}
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 2a1f9700beab1624885c7cad0446ad2c, type: 3}
+    texture: {fileID: 2800000, guid: 6efa0746f6bffac4c93e1d2a79902791, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -194,25 +194,29 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: b81e05beae47a13e00000000b81e053eae47a13e00000000b81e05beae47a1be00000000b81e053eae47a1be00000000202a3d3fc1782b3e2d6e423fc1782b3e202a3d3fe8909a3c2d6e423fe8909a3c
+      _typelessdata: 9a9919be6666a63e000000009a99193e6666a63e000000009a9919be6666a6be000000009a99193e6666a6be00000000c3f5a83e8329723f8fc2f53e8329723fc3f5a83edd608a3d8fc2f53edd608a3d
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 934
-      y: 8
-      width: 26
-      height: 63
+      x: 66
+      y: 5
+      width: 30
+      height: 65
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 947, z: 100, w: 39.5}
+    uvTransform: {x: 100, y: 81, z: 100, w: 37.5}
     downscaleMultiplier: 1
   m_PhysicsShape:
-  - - {x: -0.13, y: 0.315}
-    - {x: -0.13, y: -0.295}
-    - {x: -0.11, y: -0.315}
-    - {x: 0.099999994, y: -0.315}
-    - {x: 0.13, y: -0.24499999}
-    - {x: 0.13, y: 0.315}
+  - - {x: -0.08, y: 0.325}
+    - {x: -0.12, y: 0.295}
+    - {x: -0.13, y: 0.13499999}
+    - {x: -0.14999999, y: 0.065}
+    - {x: -0.14999999, y: -0.265}
+    - {x: -0.13, y: -0.325}
+    - {x: 0.089999996, y: -0.325}
+    - {x: 0.14999999, y: -0.24499999}
+    - {x: 0.14999999, y: 0.285}
+    - {x: 0.11, y: 0.325}
   m_Bones: []
-  m_SpriteID: 687ede76131681548bf3c7224c2985b4
+  m_SpriteID: 0571063f4bc31084d862687f20ba7566

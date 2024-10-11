@@ -9,9 +9,9 @@ Sprite:
   m_Name: Hero all sprites_77
   m_Rect:
     serializedVersion: 2
-    x: 1009
+    x: 208
     y: 168
-    width: 25
+    width: 29
     height: 64
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
@@ -22,7 +22,7 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    2a1f9700beab1624885c7cad0446ad2c: -730987612
+    2a1f9700beab1624885c7cad0446ad2c: 1605608519
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
@@ -103,18 +103,18 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000be0ad7a33e000000000000003e0ad7a33e00000000000000be0ad7a3be000000000000003e0ad7a3be00000000bc5a4c3f52130c3ff06a513f52130c3fbc5a4c3f30deca3ef06a513f30deca3e
+      _typelessdata: e17a14be0ad7a33e00000000e17a143e0ad7a33e00000000e17a14be0ad7a3be00000000e17a143e0ad7a3be000000009f81283e52130c3f0000403e52130c3f9f81283e30deca3e0000403e30deca3e
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 1009
+      x: 208
       y: 168
-      width: 25
+      width: 29
       height: 64
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 1021.5, z: 100, w: 200}
+    uvTransform: {x: 100, y: 222.5, z: 100, w: 200}
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
@@ -194,28 +194,31 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000be0ad7a33e000000000000003e0ad7a33e00000000000000be0ad7a3be000000000000003e0ad7a3be00000000bc5a4c3f52130c3ff06a513f52130c3fbc5a4c3f30deca3ef06a513f30deca3e
+      _typelessdata: e17a14be0ad7a33e00000000e17a143e0ad7a33e00000000e17a14be0ad7a3be00000000e17a143e0ad7a3be000000009f81283e52130c3f0000403e52130c3f9f81283e30deca3e0000403e30deca3e
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 1009
+      x: 208
       y: 168
-      width: 25
+      width: 29
       height: 64
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 1021.5, z: 100, w: 200}
+    uvTransform: {x: 100, y: 222.5, z: 100, w: 200}
     downscaleMultiplier: 1
   m_PhysicsShape:
-  - - {x: 0.085, y: 0.32}
-    - {x: -0.105, y: 0.32}
-    - {x: -0.125, y: 0.29999998}
-    - {x: -0.125, y: -0.26}
+  - - {x: 0.145, y: 0.31}
+    - {x: 0.114999995, y: 0.32}
+    - {x: -0.074999996, y: 0.32}
+    - {x: -0.13499999, y: 0.26}
+    - {x: -0.105, y: -0.03}
+    - {x: -0.145, y: -0.06}
+    - {x: -0.145, y: -0.19999999}
     - {x: -0.085, y: -0.32}
-    - {x: 0.044999998, y: -0.32}
-    - {x: 0.114999995, y: -0.22999999}
-    - {x: 0.125, y: -0.14}
-    - {x: 0.125, y: 0.29999998}
+    - {x: 0.065, y: -0.32}
+    - {x: 0.13499999, y: -0.22999999}
+    - {x: 0.13499999, y: -0.03}
+    - {x: 0.145, y: 0.03}
   m_Bones: []
-  m_SpriteID: 0c5f2659a471e254fb8ba4ffdb3484ff
+  m_SpriteID: e0633656a9ef6f147b9ea5ec8cfc9e66
