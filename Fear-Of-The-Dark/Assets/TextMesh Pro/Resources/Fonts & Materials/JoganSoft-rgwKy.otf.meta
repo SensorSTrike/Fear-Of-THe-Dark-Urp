@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: fbe0c0d058b719d4890eb3cffc9a5731
+guid: e0a625664b2a9d94abdc6fa4913e1a0d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -1
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Lucida Calligraphy
+  - Jogan Soft
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 2
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
