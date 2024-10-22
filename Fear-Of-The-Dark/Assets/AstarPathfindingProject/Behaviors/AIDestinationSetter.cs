@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Pathfinding {
 	/// <summary>
@@ -16,9 +18,18 @@ namespace Pathfinding {
 	public class AIDestinationSetter : VersionedMonoBehaviour {
 		/// <summary>The object that the AI should move to</summary>
 		public Transform target;
+		public Transform player;
+		public List<Transform> targetWalls;
+		
 		IAstarAI ai;
 
-		void OnEnable () {
+        void Start()
+        {
+			targetWalls = GameObject.FindGameObjectsWithTag("Wall").Select(go => go.transform).ToList();
+			EnemyDestination();	  
+        }
+
+        void OnEnable () {
 			ai = GetComponent<IAstarAI>();
 			// Update the destination right before searching for a path as well.
 			// This is enough in theory, but this script will also update the destination every
@@ -30,6 +41,12 @@ namespace Pathfinding {
 		void OnDisable () {
 			if (ai != null) ai.onSearchPath -= Update;
 		}
+
+		void EnemyDestination()
+		{
+            int index = Random.Range(0, targetWalls.Count);
+            target = targetWalls[index];
+        }
 
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {

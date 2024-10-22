@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 158392698}
   m_Layer: 0
   m_Name: Entry point L3
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 192261781}
   m_Layer: 0
   m_Name: Entry point B1
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 222921816}
   m_Layer: 0
   m_Name: Entry point U3.1
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6320,7 +6320,7 @@ GameObject:
   - component: {fileID: 316424555}
   m_Layer: 0
   m_Name: Entry point R3
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7482,7 +7482,7 @@ GameObject:
   - component: {fileID: 468946084}
   m_Layer: 0
   m_Name: Entry point U5
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7566,7 +7566,7 @@ GameObject:
   - component: {fileID: 488600702}
   m_Layer: 0
   m_Name: Entry point L1
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8123,7 +8123,7 @@ GameObject:
   - component: {fileID: 575780145}
   m_Layer: 0
   m_Name: Entry point L2
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8212,7 +8212,7 @@ GameObject:
   - component: {fileID: 592791799}
   m_Layer: 0
   m_Name: Entry point R5
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8379,7 +8379,39 @@ MonoBehaviour:
     _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
     _AreaColors:
     - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
+  tagNames:
+  - Basic Ground
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
@@ -8683,7 +8715,7 @@ GameObject:
   - component: {fileID: 839416501}
   m_Layer: 0
   m_Name: Entry point B3
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8767,7 +8799,7 @@ GameObject:
   - component: {fileID: 844864689}
   m_Layer: 0
   m_Name: Entry point L4
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9320,7 +9352,7 @@ GameObject:
   - component: {fileID: 1026610183}
   m_Layer: 0
   m_Name: Entry point B6
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9981,7 +10013,7 @@ GameObject:
   - component: {fileID: 1110424533}
   m_Layer: 0
   m_Name: Entry point B4
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10065,7 +10097,7 @@ GameObject:
   - component: {fileID: 1119570948}
   m_Layer: 0
   m_Name: Entry point U4
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10773,7 +10805,7 @@ GameObject:
   - component: {fileID: 1285350089}
   m_Layer: 0
   m_Name: Entry point B5
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15781,7 +15813,7 @@ GameObject:
   - component: {fileID: 1379728988}
   m_Layer: 0
   m_Name: Entry point U3.2
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16098,7 +16130,7 @@ GameObject:
   - component: {fileID: 1417785870}
   m_Layer: 0
   m_Name: Entry point L5
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16725,7 +16757,7 @@ GameObject:
   - component: {fileID: 1612159976}
   m_Layer: 0
   m_Name: Entry point R6
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16814,7 +16846,7 @@ GameObject:
   - component: {fileID: 1632785014}
   m_Layer: 0
   m_Name: Entry point R2
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17002,7 +17034,7 @@ GameObject:
   - component: {fileID: 1715684484}
   m_Layer: 0
   m_Name: Entry point R1
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17197,7 +17229,7 @@ GameObject:
   - component: {fileID: 1757921857}
   m_Layer: 0
   m_Name: Entry point R7
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17582,7 +17614,7 @@ GameObject:
   - component: {fileID: 1855722543}
   m_Layer: 0
   m_Name: Entry point B2
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19423,7 +19455,7 @@ GameObject:
   - component: {fileID: 1973667935}
   m_Layer: 0
   m_Name: Entry point U2
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19575,7 +19607,7 @@ GameObject:
   - component: {fileID: 1982404189}
   m_Layer: 0
   m_Name: Entry point R4
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20977,7 +21009,7 @@ GameObject:
   - component: {fileID: 2077658496}
   m_Layer: 0
   m_Name: Entry point U1
-  m_TagString: EditorOnly
+  m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21551,9 +21583,113 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
-      propertyPath: target
+      propertyPath: player
       value: 
       objectReference: {fileID: 493681505}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.size
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[0]
+      value: 
+      objectReference: {fileID: 1715684483}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[1]
+      value: 
+      objectReference: {fileID: 1632785013}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[2]
+      value: 
+      objectReference: {fileID: 316424554}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[3]
+      value: 
+      objectReference: {fileID: 1982404188}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[4]
+      value: 
+      objectReference: {fileID: 592791798}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[5]
+      value: 
+      objectReference: {fileID: 1612159975}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[6]
+      value: 
+      objectReference: {fileID: 1757921856}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[7]
+      value: 
+      objectReference: {fileID: 192261780}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[8]
+      value: 
+      objectReference: {fileID: 1855722542}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[9]
+      value: 
+      objectReference: {fileID: 839416500}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[10]
+      value: 
+      objectReference: {fileID: 1110424532}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[11]
+      value: 
+      objectReference: {fileID: 1285350088}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[12]
+      value: 
+      objectReference: {fileID: 1026610182}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[13]
+      value: 
+      objectReference: {fileID: 488600701}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[14]
+      value: 
+      objectReference: {fileID: 575780144}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[15]
+      value: 
+      objectReference: {fileID: 158392697}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[16]
+      value: 
+      objectReference: {fileID: 844864688}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[17]
+      value: 
+      objectReference: {fileID: 1417785869}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[18]
+      value: 
+      objectReference: {fileID: 2077658495}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[19]
+      value: 
+      objectReference: {fileID: 1973667934}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[20]
+      value: 
+      objectReference: {fileID: 222921815}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[21]
+      value: 
+      objectReference: {fileID: 1379728987}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[22]
+      value: 
+      objectReference: {fileID: 1119570947}
+    - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: targetWall.Array.data[23]
+      value: 
+      objectReference: {fileID: 468946083}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
