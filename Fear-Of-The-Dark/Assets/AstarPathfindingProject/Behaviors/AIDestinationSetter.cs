@@ -20,11 +20,13 @@ namespace Pathfinding {
 		public Transform target;
 		public Transform player;
 		public List<Transform> targetWalls;
+		private bool wallBroken;
 		
 		IAstarAI ai;
 
         void Start()
         {
+			// Find objects with tagg "Wall" and add objects transform to list
 			targetWalls = GameObject.FindGameObjectsWithTag("Wall").Select(go => go.transform).ToList();
 			EnemyDestination();	  
         }
@@ -42,15 +44,29 @@ namespace Pathfinding {
 			if (ai != null) ai.onSearchPath -= Update;
 		}
 
+		// functio to take random transform from list and set it as target
 		void EnemyDestination()
 		{
             int index = Random.Range(0, targetWalls.Count);
             target = targetWalls[index];
         }
 
-		/// <summary>Updates the AI's destination every frame</summary>
-		void Update () {
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("DetroyedWall")) 
+			{
+				wallBroken = true;
+			}
+        }
+
+        /// <summary>Updates the AI's destination every frame</summary>
+        void Update () {
 			if (target != null && ai != null) ai.destination = target.position;
+			if (wallBroken == true)
+			{
+				target = player;
+			}
+			
 		}
 	}
 }

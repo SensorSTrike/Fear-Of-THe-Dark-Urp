@@ -687,6 +687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158392697}
   - component: {fileID: 158392698}
+  - component: {fileID: 158392699}
   m_Layer: 0
   m_Name: Entry point L3
   m_TagString: Wall
@@ -761,6 +762,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &158392699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158392696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &192261779
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192261780}
   - component: {fileID: 192261781}
+  - component: {fileID: 192261782}
   m_Layer: 0
   m_Name: Entry point B1
   m_TagString: Wall
@@ -845,6 +864,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &192261782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192261779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &206845139
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222921815}
   - component: {fileID: 222921816}
+  - component: {fileID: 222921817}
   m_Layer: 0
   m_Name: Entry point U3.1
   m_TagString: Wall
@@ -1013,6 +1050,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &222921817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222921814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &232183923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,6 +6372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316424554}
   - component: {fileID: 316424555}
+  - component: {fileID: 316424556}
   m_Layer: 0
   m_Name: Entry point R3
   m_TagString: Wall
@@ -6392,6 +6447,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &316424556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316424553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &345084695
 GameObject:
   m_ObjectHideFlags: 0
@@ -7480,6 +7552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 468946083}
   - component: {fileID: 468946084}
+  - component: {fileID: 468946085}
   m_Layer: 0
   m_Name: Entry point U5
   m_TagString: Wall
@@ -7554,6 +7627,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &468946085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468946082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &488600700
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,6 +7654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488600701}
   - component: {fileID: 488600702}
+  - component: {fileID: 488600703}
   m_Layer: 0
   m_Name: Entry point L1
   m_TagString: Wall
@@ -7638,6 +7729,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &488600703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488600700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1001 &490369759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8121,6 +8229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575780144}
   - component: {fileID: 575780145}
+  - component: {fileID: 575780146}
   m_Layer: 0
   m_Name: Entry point L2
   m_TagString: Wall
@@ -8195,6 +8304,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &575780146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575780143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &582517888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
@@ -8210,6 +8336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592791798}
   - component: {fileID: 592791799}
+  - component: {fileID: 592791800}
   m_Layer: 0
   m_Name: Entry point R5
   m_TagString: Wall
@@ -8284,6 +8411,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &592791800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592791797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &601301037
 GameObject:
   m_ObjectHideFlags: 0
@@ -8713,6 +8857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839416500}
   - component: {fileID: 839416501}
+  - component: {fileID: 839416502}
   m_Layer: 0
   m_Name: Entry point B3
   m_TagString: Wall
@@ -8787,6 +8932,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &839416502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839416499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &844864687
 GameObject:
   m_ObjectHideFlags: 0
@@ -8797,6 +8959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844864688}
   - component: {fileID: 844864689}
+  - component: {fileID: 844864690}
   m_Layer: 0
   m_Name: Entry point L4
   m_TagString: Wall
@@ -8871,6 +9034,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &844864690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844864687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &911048946
 GameObject:
   m_ObjectHideFlags: 0
@@ -9350,6 +9530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026610182}
   - component: {fileID: 1026610183}
+  - component: {fileID: 1026610184}
   m_Layer: 0
   m_Name: Entry point B6
   m_TagString: Wall
@@ -9424,6 +9605,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1026610184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026610181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1036163832
 GameObject:
   m_ObjectHideFlags: 0
@@ -10011,6 +10209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110424532}
   - component: {fileID: 1110424533}
+  - component: {fileID: 1110424534}
   m_Layer: 0
   m_Name: Entry point B4
   m_TagString: Wall
@@ -10085,6 +10284,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1110424534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110424531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1119570946
 GameObject:
   m_ObjectHideFlags: 0
@@ -10095,6 +10311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119570947}
   - component: {fileID: 1119570948}
+  - component: {fileID: 1119570949}
   m_Layer: 0
   m_Name: Entry point U4
   m_TagString: Wall
@@ -10169,6 +10386,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1119570949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119570946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1128783831
 GameObject:
   m_ObjectHideFlags: 0
@@ -10803,6 +11037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285350088}
   - component: {fileID: 1285350089}
+  - component: {fileID: 1285350090}
   m_Layer: 0
   m_Name: Entry point B5
   m_TagString: Wall
@@ -10877,6 +11112,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1285350090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285350087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1319315685
 GameObject:
   m_ObjectHideFlags: 0
@@ -15811,6 +16063,7 @@ GameObject:
   - component: {fileID: 1379728987}
   - component: {fileID: 1379728989}
   - component: {fileID: 1379728988}
+  - component: {fileID: 1379728990}
   m_Layer: 0
   m_Name: Entry point U3.2
   m_TagString: Wall
@@ -15906,6 +16159,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1379728990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379728986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1384450269
 GameObject:
   m_ObjectHideFlags: 0
@@ -16128,6 +16398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1417785869}
   - component: {fileID: 1417785870}
+  - component: {fileID: 1417785871}
   m_Layer: 0
   m_Name: Entry point L5
   m_TagString: Wall
@@ -16202,6 +16473,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1417785871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417785868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1462035934
 GameObject:
   m_ObjectHideFlags: 0
@@ -16755,6 +17043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612159975}
   - component: {fileID: 1612159976}
+  - component: {fileID: 1612159977}
   m_Layer: 0
   m_Name: Entry point R6
   m_TagString: Wall
@@ -16829,6 +17118,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1612159977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612159974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!4 &1614227410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4296796637748473551, guid: 76155d22ad1706c43b3bc1bbc2bcd772, type: 3}
@@ -16844,6 +17150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1632785013}
   - component: {fileID: 1632785014}
+  - component: {fileID: 1632785015}
   m_Layer: 0
   m_Name: Entry point R2
   m_TagString: Wall
@@ -16918,6 +17225,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1632785015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632785012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1664565597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9082559412315700598, guid: 1b44a82fe99cd98408545e9f3a7b7490, type: 3}
@@ -17032,6 +17356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1715684483}
   - component: {fileID: 1715684484}
+  - component: {fileID: 1715684485}
   m_Layer: 0
   m_Name: Entry point R1
   m_TagString: Wall
@@ -17106,6 +17431,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1715684485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715684482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1741466736
 GameObject:
   m_ObjectHideFlags: 0
@@ -17227,6 +17569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1757921856}
   - component: {fileID: 1757921857}
+  - component: {fileID: 1757921858}
   m_Layer: 0
   m_Name: Entry point R7
   m_TagString: Wall
@@ -17301,6 +17644,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1757921858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757921855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1769420021
 GameObject:
   m_ObjectHideFlags: 0
@@ -17612,6 +17972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855722542}
   - component: {fileID: 1855722543}
+  - component: {fileID: 1855722544}
   m_Layer: 0
   m_Name: Entry point B2
   m_TagString: Wall
@@ -17686,6 +18047,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1855722544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855722541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1858773044
 GameObject:
   m_ObjectHideFlags: 0
@@ -19453,6 +19831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973667934}
   - component: {fileID: 1973667935}
+  - component: {fileID: 1973667936}
   m_Layer: 0
   m_Name: Entry point U2
   m_TagString: Wall
@@ -19527,6 +19906,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1973667936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973667933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &1980163417
 GameObject:
   m_ObjectHideFlags: 0
@@ -19605,6 +20001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1982404188}
   - component: {fileID: 1982404189}
+  - component: {fileID: 1982404190}
   m_Layer: 0
   m_Name: Entry point R4
   m_TagString: Wall
@@ -19679,6 +20076,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1982404190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982404187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1001 &1999098035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21007,6 +21421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2077658495}
   - component: {fileID: 2077658496}
+  - component: {fileID: 2077658497}
   m_Layer: 0
   m_Name: Entry point U1
   m_TagString: Wall
@@ -21081,6 +21496,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2077658497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077658494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  maxHealth: 5
+  destroy: 1
+  fixing: 1
+  hitSpeed: 4
 --- !u!1 &2103412883
 GameObject:
   m_ObjectHideFlags: 0
@@ -21580,6 +22012,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
       propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
