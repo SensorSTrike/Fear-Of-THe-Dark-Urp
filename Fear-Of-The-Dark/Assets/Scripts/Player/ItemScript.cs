@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class ItemScript : MonoBehaviour
 {
-    public GameObject playerHand;
     public GameObject[] weapons;
     public int WeaponIndex; 
     public Animator ItemAnimator;
@@ -11,15 +10,15 @@ public class ItemScript : MonoBehaviour
     {
 
     }
-    public void TakeItem()
+    public void TakeItem(GameObject player)
     {
-        //Instantiate(weapons[WeaponIndex], playerHand.transform.position , Quaternion.identity);
         string itemName = gameObject.tag;
         string InventoryName = itemName + "Inventory";
         ItemAnimator.SetBool(InventoryName, true);
 
         Debug.Log("Sinun inventoorin nimi on : " + InventoryName);
         Destroy(gameObject);
+        player.GetComponent<PlayerController>().InstantiateWeapon(WeaponIndex);
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +27,7 @@ public class ItemScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("You collided weapon picked up");
-            TakeItem();
+            TakeItem(other.gameObject);
         }
 
     }

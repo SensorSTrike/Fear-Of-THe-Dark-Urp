@@ -7,6 +7,8 @@ public class AnimationScroll : MonoBehaviour
     private int currentValue = 1; // Initial value of the parameter
     private float scrollCooldown = 1.0f; // Cooldown time between changes in seconds
     private float lastScrollTime; // To keep track of the last time the scroll input was registered
+    [SerializeField]
+    private PlayerController playerController;
 
     void Start()
     {
@@ -28,6 +30,7 @@ public class AnimationScroll : MonoBehaviour
 
             if (scroll > 0f)
             {
+                Debug.Log("Scrolling up");
                 // Scrolling up, increase the parameter
                 currentValue++;
                 if (currentValue > 4)
@@ -35,9 +38,11 @@ public class AnimationScroll : MonoBehaviour
                     currentValue = 1; // Wrap back to 1 if going beyond 4
                 }
                 lastScrollTime = Time.time; // Reset the cooldown timer
+                UpdateWeapon();
             }
             else if (scroll < 0f)
             {
+                Debug.Log("Scrolling Down");
                 // Scrolling down, decrease the parameter
                 currentValue--;
                 if (currentValue < 1)
@@ -45,10 +50,20 @@ public class AnimationScroll : MonoBehaviour
                     currentValue = 4; // Wrap back to 4 if going below 1
                 }
                 lastScrollTime = Time.time; // Reset the cooldown timer
+                UpdateWeapon();
             }
 
             // Update the Animator parameter
             animator.SetInteger(parameterName, currentValue);
+        }
+    }
+
+    void UpdateWeapon()
+    {
+        if (playerController != null)
+        {
+            Debug.Log("WEAPON CURRENT VALUE " + currentValue);
+            playerController.InstantiateWeapon(currentValue - 1);
         }
     }
 }

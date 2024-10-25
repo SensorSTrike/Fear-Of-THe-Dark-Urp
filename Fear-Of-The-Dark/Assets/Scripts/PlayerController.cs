@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -6,6 +7,20 @@ public class PlayerController : MonoBehaviour
 
     public Vector3 targetPosition;
     public bool isMoving = false;
+    public bool isHoldingWeapon = false;
+    [SerializeField]
+    GameObject PlayerHands;
+    [SerializeField]
+    Animator UI_Weapons;
+    [SerializeField]
+    GameObject[] Weapons;
+    [SerializeField]
+    GameObject CurrentPlayerWeapon;
+
+    private GameObject currentWeapon;
+    private int currentWeaponIndex;
+
+
 
     void Update()
     {
@@ -42,5 +57,22 @@ public class PlayerController : MonoBehaviour
             isMoving = false;
         }
     }
+
+    public void InstantiateWeapon(int WeaponIndex)
+    {
+        if (currentWeapon != null)
+        {
+            Destroy(currentWeapon);
+        }
+        Debug.Log(WeaponIndex);
+        GameObject newWeapon = Instantiate(Weapons[WeaponIndex], PlayerHands.transform.position, Quaternion.identity);
+        newWeapon.transform.parent = PlayerHands.transform;
+        float slotvalue = UI_Weapons.GetFloat("EquipmentSlot");
+        Debug.Log("SlotValue "+slotvalue);
+        UI_Weapons.SetFloat("EquipmentSlot", slotvalue +1 );
+        isHoldingWeapon = true;
+        currentWeaponIndex = WeaponIndex;
+        currentWeapon = newWeapon;
+        CurrentPlayerWeapon = newWeapon;
+    }
 }
-  
