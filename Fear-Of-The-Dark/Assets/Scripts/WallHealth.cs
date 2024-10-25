@@ -8,13 +8,15 @@ public class WallHealth : MonoBehaviour
 
     public float maxHealth;
 
-    public float destroy;
+    public float damage;
 
     public float fixing;
 
-    private bool onRange;
+    public bool onRange;
 
     public float hitSpeed;
+
+    
    
     void Start()
     {
@@ -23,42 +25,54 @@ public class WallHealth : MonoBehaviour
 
     void destroyWall()
     {
+       
+
         if (health > 0)
         {
-            health = health - destroy;
+            health = health - damage;
+            
+            
         }
     }
 
-    void fixWall()
-    {
-        if (health < maxHealth)
-        {
-            health = health + fixing;
-        } 
-    }
+    //void fixWall()
+    //{
+    //    if (health < maxHealth)
+    //    {
+    //        health = health + fixing;
+    //    } 
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy")) 
+        if (collision.CompareTag("Enemy"))
         {
-            onRange = true;
+            
+            StartCoroutine(HitSpeedCoroutine());
         }
     }
 
+    
+
     IEnumerator HitSpeedCoroutine()
     {
-        yield return new WaitForSeconds(hitSpeed); 
+        
+        yield return new WaitForSeconds(hitSpeed);
+        onRange = true;
     }
 
     void Update()
     {
-       if (onRange == true || health > 0)
-       {
-            StartCoroutine(HitSpeedCoroutine());
+        
+        if (onRange == true && health > 0)
+        {
             destroyWall();
-       }
 
-       if (onRange == true || health <= 0)
+            onRange = false;
+            StartCoroutine(HitSpeedCoroutine());
+        }
+
+       if (onRange == true && health <= 0)
        {
             gameObject.tag = "DestroyedWall";
        }
