@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 39934989149815985}
   - component: {fileID: 1084281163220606897}
   - component: {fileID: 5552511720999741729}
+  - component: {fileID: 7096172056764329119}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -121,6 +122,41 @@ MonoBehaviour:
   target: {fileID: 0}
   player: {fileID: 0}
   targetWalls: []
+--- !u!70 &7096172056764329119
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221612963009307112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.008154869, y: -0.004077673}
+  m_Size: {x: 0.98931694, y: 2.0194125}
+  m_Direction: 0
 --- !u!1001 &3403888579098870610
 PrefabInstance:
   m_ObjectHideFlags: 0

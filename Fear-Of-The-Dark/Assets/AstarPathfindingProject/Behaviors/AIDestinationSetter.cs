@@ -20,15 +20,17 @@ namespace Pathfinding {
 		public Transform target;
 		public Transform player;
 		public List<Transform> targetWalls;
-		private bool wallBroken;
-		
-		IAstarAI ai;
+        
+       
+
+        IAstarAI ai;
 
         void Start()
         {
 			// Find objects with tagg "Wall" and add objects transform to list
 			targetWalls = GameObject.FindGameObjectsWithTag("Wall").Select(go => go.transform).ToList();
-			EnemyDestination();	  
+			EnemyDestination();
+            NoWallFound();
         }
 
         void OnEnable () {
@@ -51,22 +53,28 @@ namespace Pathfinding {
             target = targetWalls[index];
         }
 
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.CompareTag("DetroyedWall")) 
+        void NoWallFound()
+		{
+			if (targetWalls.Count <= 0)
 			{
-				wallBroken = true;
+				target = player;
+			}
+		}
+
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+			if (collision.CompareTag("DestroyedWall"))
+			{
+				target = player;
 			}
         }
 
         /// <summary>Updates the AI's destination every frame</summary>
-        void Update () {
+        void Update () 
+		{
 			if (target != null && ai != null) ai.destination = target.position;
-			if (wallBroken == true)
-			{
-				target = player;
-			}
+
 			
-		}
+        }
 	}
 }
