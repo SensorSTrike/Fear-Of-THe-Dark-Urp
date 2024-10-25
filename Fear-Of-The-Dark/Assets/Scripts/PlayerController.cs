@@ -4,10 +4,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f; // Speed of the player
+    public string parameterName = "EquipmentSlot"; // The name of the parameter to change
+    public int currentValue = 0; // Initial value of the parameter
+    private float scrollCooldown = 1.0f; // Cooldown time between changes in seconds
+    private float lastScrollTime; // To keep track of the last time the scroll input was registered
 
     public Vector3 targetPosition;
     public bool isMoving = false;
     public bool isHoldingWeapon = false;
+    bool HammerPickedUp = false;
+    bool AxePickedUp = false;
+    bool KatanaPickedUp = false;
+    bool ShotGunPickedUp = false;
     [SerializeField]
     GameObject PlayerHands;
     [SerializeField]
@@ -20,8 +28,11 @@ public class PlayerController : MonoBehaviour
     private GameObject currentWeapon;
     private int currentWeaponIndex;
 
-
-
+    private void Start()
+    {
+        UI_Weapons.SetInteger(parameterName, currentValue); // Set initial value
+        lastScrollTime = -scrollCooldown; // Ensures the first scroll is immediately allowed
+    }
     void Update()
     {
         // Start moving when the move button (e.g., left mouse button) is pressed
@@ -35,6 +46,49 @@ public class PlayerController : MonoBehaviour
         {
             MoveTowardsTarget();
         }
+
+        // Check for mouse wheel scroll input and enforce cooldown
+        if (Time.time - lastScrollTime >= scrollCooldown)
+        {
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+            if (HammerPickedUp && AxePickedUp && KatanaPickedUp && ShotGunPickedUp == true)
+            {
+                if (scroll > 0f)
+                {
+                    Debug.Log("Scrolling up");
+                    // Scrolling up, increase the parameter
+                    currentValue++;
+                    if (currentValue > 4)
+                    {
+                        currentValue = 1; // Wrap back to 1 if going beyond 4
+                    }
+                    lastScrollTime = Time.time; // Reset the cooldown timer
+                    UpdateWeapon();
+                }
+                else if (scroll < 0f)
+                {
+                    Debug.Log("Scrolling Down");
+                    // Scrolling down, decrease the parameter
+                    currentValue--;
+                    if (currentValue < 1)
+                    {
+                        currentValue = 4; // Wrap back to 4 if going below 1
+                    }
+                    lastScrollTime = Time.time; // Reset the cooldown timer
+                    UpdateWeapon();
+                }
+            }
+
+            // Update the Animator parameter
+            UI_Weapons.SetInteger(parameterName, currentValue);
+        }
+    }
+
+    void UpdateWeapon()
+    {
+
+            Debug.Log("WEAPON CURRENT VALUE " + currentValue);
+            InstantiateWeapon(currentValue - 1);
     }
 
     // Method to set the target position when the move button is pressed
@@ -64,12 +118,46 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(currentWeapon);
         }
-        Debug.Log(WeaponIndex);
         GameObject newWeapon = Instantiate(Weapons[WeaponIndex], PlayerHands.transform.position, Quaternion.identity);
         newWeapon.transform.parent = PlayerHands.transform;
-        float slotvalue = UI_Weapons.GetFloat("EquipmentSlot");
-        Debug.Log("SlotValue "+slotvalue);
-        UI_Weapons.SetFloat("EquipmentSlot", slotvalue +1 );
+
+        // Determine EquipmentSlot value based on weapon tag
+        currentValue = 0;
+        if (newWeapon.CompareTag("Hammer"))
+        {
+            currentValue = 1;
+            Debug.Log("Hammer Instantiated");
+            HammerPickedUp = true;
+            Debug.Log("HammerPickedUp " +  HammerPickedUp);
+        }
+        else if (newWeapon.CompareTag("Axe"))
+        {
+            currentValue = 2;
+            Debug.Log("Axe Instantiated");
+            AxePickedUp = true;
+            Debug.Log("AxePickedUp " + AxePickedUp);
+        }
+        else if (newWeapon.CompareTag("Katana"))
+        {
+            currentValue = 3;
+            Debug.Log("Katana Instantiated");
+            KatanaPickedUp = true;
+            Debug.Log("KatanaPickedUp " + KatanaPickedUp);
+        }
+        else if (newWeapon.CompareTag("Shotgun"))
+        {
+            currentValue = 4;
+            Debug.Log("Shotgun Instantiated");
+            ShotGunPickedUp = true;
+            Debug.Log("ShotGunPickedUp " + ShotGunPickedUp);
+        }
+
+        // Update the UI_Weapons Animator parameter
+        Debug.Log("Setting EquipmentSlot to " + currentValue);
+        UI_Weapons.SetInteger(parameterName, currentValue); // Set the animator integer
+        Debug.Log("Animator EquipmentSlot value after setting: " + UI_Weapons.GetInteger(parameterName));
+
+        // Update weapon tracking variables
         isHoldingWeapon = true;
         currentWeaponIndex = WeaponIndex;
         currentWeapon = newWeapon;

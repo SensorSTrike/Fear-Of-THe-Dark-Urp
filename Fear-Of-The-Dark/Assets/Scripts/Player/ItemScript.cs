@@ -5,11 +5,6 @@ public class ItemScript : MonoBehaviour
     public GameObject[] weapons;
     public int WeaponIndex; 
     public Animator ItemAnimator;
-
-    void Start()
-    {
-
-    }
     public void TakeItem(GameObject player)
     {
         string itemName = gameObject.tag;
