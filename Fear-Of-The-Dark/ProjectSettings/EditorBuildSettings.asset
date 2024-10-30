@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: bdc151747beed254c9fb3b6821cf9bf4
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: a03c1fae1ed6e7a4298c4ccfe219dc1b
+  - enabled: 1
+    path: Assets/Scenes/Testaus Taso.unity
+    guid: eaec59784183cb74186a136487878fe6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Taso.unity
+    guid: 4f190faed8d85d34686ba438b2a8ec09
   m_configObjects: {}
