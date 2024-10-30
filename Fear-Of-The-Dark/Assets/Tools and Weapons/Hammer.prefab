@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.3023939, y: -3.106, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c1d44d9c6f9db4896901a91f933f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHand: {fileID: 7142858459430564716, guid: 8fbc3a8f46e67e545996fe70e0ad7182, type: 3}
   weapons:
   - {fileID: 8336428574614841253}
   - {fileID: 7891014777054083441, guid: 8a4833b3dd5e91f44944566c355ff343, type: 3}
@@ -106,7 +105,6 @@ MonoBehaviour:
   - {fileID: 9082559412315700598, guid: 1b44a82fe99cd98408545e9f3a7b7490, type: 3}
   WeaponIndex: 0
   ItemAnimator: {fileID: 0}
-  UIinventory: {fileID: 3679191012478628947, guid: 2caa862563523a94e81cc05bb0cae2cd, type: 3}
 --- !u!70 &-4457903508565726287
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
