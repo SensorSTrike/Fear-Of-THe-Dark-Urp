@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     private float scrollCooldown = 1.0f; // Cooldown time between changes in seconds
     private float lastScrollTime; // To keep track of the last time the scroll input was registered
 
+    [SerializeField]
+    private float rotationSpeed;
+   
     public Vector3 targetPosition;
     public bool isMoving = false;
     public bool isHoldingWeapon = false;
@@ -28,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private GameObject currentWeapon;
     private int currentWeaponIndex;
 
+    
     private void Start()
     {
         UI_Weapons.SetInteger(parameterName, currentValue); // Set initial value
@@ -35,6 +39,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+       
         // Start moving when the move button (e.g., left mouse button) is pressed
         if (Input.GetMouseButtonDown(0))
         {
@@ -45,6 +50,9 @@ public class PlayerController : MonoBehaviour
         if (isMoving)
         {
             MoveTowardsTarget();
+
+            Quaternion toRotation = Quaternion.LookRotation(Vector3.forward, targetPosition);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
 
         // Check for mouse wheel scroll input and enforce cooldown
@@ -84,6 +92,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
+
     void UpdateWeapon()
     {
 
@@ -98,6 +108,7 @@ public class PlayerController : MonoBehaviour
         mousePosition.z = Camera.main.WorldToScreenPoint(transform.position).z;
         targetPosition = Camera.main.ScreenToWorldPoint(mousePosition);
         isMoving = true;
+        
     }
 
     // Method to move the player towards the target position
@@ -105,6 +116,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
 
+       
         // Stop moving if the player reaches the target position
         if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
@@ -162,5 +174,7 @@ public class PlayerController : MonoBehaviour
         currentWeaponIndex = WeaponIndex;
         currentWeapon = newWeapon;
         CurrentPlayerWeapon = newWeapon;
+        
+
     }
 }

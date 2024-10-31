@@ -10,12 +10,14 @@ public class PlayerAnimation : MonoBehaviour
     private PlayerController playerController;
     private Vector3 moveDirection;
     private Vector3 lastMoveDirection;
+    private bool weaponInHand;
     
     
     void Start()
     {
         // Used to get access to PlayerController script
         playerController = GetComponent<PlayerController>();
+        playerController = GetComponent<PlayerController> ();
         
     }
 
@@ -39,7 +41,10 @@ public class PlayerAnimation : MonoBehaviour
         {
             moveDirection = lastMoveDirection;           
         }
-        
+         if (playerController.currentValue > 0)
+        {
+            weaponInHand = true;
+        }
 
         
     }
@@ -53,6 +58,7 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool("isMoving", playerController.isMoving);        
         anim.SetFloat("HorizontalIdle", lastMoveDirection.x);       
         anim.SetFloat("VerticalIdle", lastMoveDirection.y);
+        anim.SetBool("weaponInHand", weaponInHand);
        
     }
 

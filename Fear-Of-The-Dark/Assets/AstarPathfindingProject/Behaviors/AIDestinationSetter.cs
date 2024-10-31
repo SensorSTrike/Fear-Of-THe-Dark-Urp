@@ -66,6 +66,7 @@ namespace Pathfinding {
 			if (collision.CompareTag("DestroyedWall"))
 			{
 				target = player;
+				AstarPath.active.Scan();
 			}
         }
 

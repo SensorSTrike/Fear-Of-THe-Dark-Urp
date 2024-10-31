@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 158392698}
   - component: {fileID: 158392699}
   - component: {fileID: 158392700}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point L3
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -751,7 +751,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1142571218, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -775,12 +775,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 158392698}
+  sprites:
+  - {fileID: 21300000, guid: fd1b2e51ea9ae59428d7a36715194d44, type: 2}
+  - {fileID: 21300000, guid: c1444a96bc1800643af763b9ebcb206c, type: 2}
+  - {fileID: 21300000, guid: c7100da44c9f97e4ea4e5a5e5f28a3d5, type: 2}
+  - {fileID: 21300000, guid: 995d5fac577cafa4fbbf5aeb5a21b089, type: 2}
+  currentSprite: 0
 --- !u!61 &158392700
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -810,7 +817,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -838,7 +845,7 @@ GameObject:
   - component: {fileID: 192261781}
   - component: {fileID: 192261782}
   - component: {fileID: 192261783}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B1
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -900,7 +907,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -929,7 +936,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 192261781}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &192261783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -959,7 +974,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1071,7 +1086,7 @@ GameObject:
   - component: {fileID: 222921816}
   - component: {fileID: 222921817}
   - component: {fileID: 222921818}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U3.1
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1133,7 +1148,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 0}
   m_FlipX: 0
@@ -1163,6 +1178,9 @@ MonoBehaviour:
   fixing: 1
   onRange: 0
   hitSpeed: 4
+  sR: {fileID: 222921816}
+  sprites: []
+  currentSprite: 0
 --- !u!61 &222921818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1192,7 +1210,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6621,7 +6639,7 @@ GameObject:
   - component: {fileID: 316424555}
   - component: {fileID: 316424556}
   - component: {fileID: 316424557}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R3
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -6683,7 +6701,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 39568181, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -6712,7 +6730,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 316424555}
+  sprites:
+  - {fileID: 21300000, guid: 36fd46c9b5bf9f6428f3fbe863d06e1d, type: 2}
+  - {fileID: 21300000, guid: 9dc5e634b93eea54ebf9ace702a25603, type: 2}
+  - {fileID: 21300000, guid: 2de9814a3c1ab344899a88ad94893a26, type: 2}
+  - {fileID: 21300000, guid: d55f1d0234dc3334a9d552b0d86d3fb3, type: 2}
+  - {fileID: 21300000, guid: 2c64a5aa7e6739745b64b721523f73c2, type: 2}
+  currentSprite: 0
 --- !u!61 &316424557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6742,7 +6768,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7848,7 +7874,7 @@ GameObject:
   - component: {fileID: 468946084}
   - component: {fileID: 468946085}
   - component: {fileID: 468946086}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U5
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -7910,7 +7936,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 400959111, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -7934,12 +7960,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 468946084}
+  sprites:
+  - {fileID: 21300000, guid: 2be694ad003917346a89fabdf0906dc9, type: 2}
+  - {fileID: 21300000, guid: f405b018c8efc8f48850d210fd0a7277, type: 2}
+  - {fileID: 21300000, guid: 169fe79b7d2dfa14c94000e7b1e8ff51, type: 2}
+  - {fileID: 21300000, guid: 9e07a07063e64144e8a15681b3b97221, type: 2}
+  currentSprite: 0
 --- !u!61 &468946086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7969,7 +8002,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7997,7 +8030,7 @@ GameObject:
   - component: {fileID: 488600702}
   - component: {fileID: 488600703}
   - component: {fileID: 488600704}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point L1
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -8059,7 +8092,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1142571218, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -8083,12 +8116,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 488600702}
+  sprites:
+  - {fileID: 21300000, guid: fd1b2e51ea9ae59428d7a36715194d44, type: 2}
+  - {fileID: 21300000, guid: c1444a96bc1800643af763b9ebcb206c, type: 2}
+  - {fileID: 21300000, guid: c7100da44c9f97e4ea4e5a5e5f28a3d5, type: 2}
+  - {fileID: 21300000, guid: 995d5fac577cafa4fbbf5aeb5a21b089, type: 2}
+  currentSprite: 0
 --- !u!61 &488600704
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8118,7 +8158,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8254,6 +8294,7 @@ MonoBehaviour:
   moveSpeed: 2
   parameterName: EquipmentSlot
   currentValue: 0
+  rotationSpeed: 100
   targetPosition: {x: 0, y: 0, z: 0}
   isMoving: 0
   isHoldingWeapon: 0
@@ -8630,7 +8671,7 @@ GameObject:
   - component: {fileID: 575780145}
   - component: {fileID: 575780146}
   - component: {fileID: 575780147}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point L2
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -8692,7 +8733,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -132917156, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -8721,7 +8762,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 575780145}
+  sprites:
+  - {fileID: 21300000, guid: f2b3bc5dcf4016d4e9f8d96111c19e91, type: 2}
+  - {fileID: 21300000, guid: 9966f16355f3cb84fbc823c146227308, type: 2}
+  - {fileID: 21300000, guid: d34a0e1104b4b3848bf6a3e035965710, type: 2}
+  - {fileID: 21300000, guid: ad1249127f1066c4caf4a35f7a7d1deb, type: 2}
+  - {fileID: 21300000, guid: c88b244e22d0a594191d0511bca190f4, type: 2}
+  currentSprite: 0
 --- !u!61 &575780147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8751,7 +8800,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8872,6 +8921,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &582517902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582517888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4623ff74398726d48abc07d022178dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  maxHealth: 3
+  damage: 1
+  hitByKatana: 0
 --- !u!1 &592791797
 GameObject:
   m_ObjectHideFlags: 0
@@ -8884,7 +8949,7 @@ GameObject:
   - component: {fileID: 592791799}
   - component: {fileID: 592791800}
   - component: {fileID: 592791801}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R5
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -8946,7 +9011,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 39568181, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -8975,7 +9040,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 592791799}
+  sprites:
+  - {fileID: 21300000, guid: 36fd46c9b5bf9f6428f3fbe863d06e1d, type: 2}
+  - {fileID: 21300000, guid: 9dc5e634b93eea54ebf9ace702a25603, type: 2}
+  - {fileID: 21300000, guid: 2de9814a3c1ab344899a88ad94893a26, type: 2}
+  - {fileID: 21300000, guid: d55f1d0234dc3334a9d552b0d86d3fb3, type: 2}
+  - {fileID: 21300000, guid: 2c64a5aa7e6739745b64b721523f73c2, type: 2}
+  currentSprite: 0
 --- !u!61 &592791801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9005,7 +9078,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9073,7 +9146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &626078630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9088,7 +9161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIewwNSc+egIAADUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxzXdvrSGkBxImtJOLL8JaYw2y5JHkAMnw37uSbexSLshvd9++fVr7i3BpSkit0hvN2VYxIN8HxJ3Jt0EXfIYLPSq555/Q5rxzZnOXRH3OG7VcIR66MqMKsJqnP+RRuOQAwUryTOlizY4QK2MNwhkVBjCklXXVEqGvAbng33DpSq54iubu9ImnZTC44TEFaUF3qcFo6X6LsCkYhqOJR6ZRUziMRrNFFAXhbLweBnPPUslU0KIE5kbqyKKobRv6NInDNhmOP1VCcNMoJfZaeidiWpoK58QExilO7uUFoykCOfBjbh1hv/w1ywzYxhhNryuu0cKal/xUta8FNada2QcVlesUBZOFl1Wzbv9LGNaqM62K57ZxGLgmNufp6Y1eU2psz/k+vOq0h96hMxUnehDwnoN8URutKskwaHXlSisD0ap7vM8W55CeOryW+gBWZe/+Gsfba3Yz3Pz4l1jw4uCtnNTAXihvud8O0Hg5v1Cw3x3TUCDqVPwx8Jse+0vWBJ64NhZDzZTSyTuoSrtUsvaeuWkqGystwcON6BIkFfa6Qxr7eIcPsV7bh8gTda9T07yJtW/JQ4mHu/wgeAjt1Pl+WSZX5y2Y/LWygkvoRLvAC/oUKynrFet70pbtK53RtFd2rDj7d7UIi+giCmbTQxCly0U2Hc7H8ywYzw8MxuPJEqv97nGJc1Kxq4U29uCtyY5c4p61X5nBRtPSrzvT9Lzhn4XqWc5lpvapBpCvNcNdOGhsgi8mWzOOBu3BWi79fZOvhAiVnoAld6LET7q+WE2TjiUhJf9Q1iEJif1nJSEOvu/yTsMHh7Nr3pLdyO0vUEsDBBQAAAgIAAAQIewzwFJMbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSilGihZGBmWmSgVGypUWaqa65sXmagbF5UkqqsbGJZXKqUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAQIewwNSc+egIAADUFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAQIewzwFJMbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    dataString: UEsDBBQAAAgIAAAQIeyx7Pw3ewIAADQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LYhgTorXUI6SEJU9rJxRdhrbEGWfJIcoBk+PeuZBk7lAvy2923b5/W/iRcmhpyq/Rac/asGJDvI+LO5NuoDz7Bie6V3PIP6HLeOLOlS6I+5ze1XCEeuzKjKrCa5z/kXrjkCMFG8kLpasX2kCpjDcIFFQYwpJV11RKhzxE54d946UrOeErm7vSBp2U0uuAxB2lB96nRZOl+izgUjOPJzCN3SSgcJ5P7RZJE8f10NY7mnqWRuaBVDcyN1JMlSdc29mkShw0Zjj9XQnATlBJ7rr0TKa1Ng3NiAuMUJ/fyoonjKoHvS+sIh+WvRWHABmM0PT9wjRa2vOSnan2tqDm0yt6paFynJJotvKyW9fm/hHGrutCqeuoax5FrYkueH37Tc06NHTg/hB967bF36EjFge4EvJUgX9Raq0YyDFrduNLGQPLQP15nS0vIDz3eSr0Bm3pwf8Hx7prdDBc//ikVvNp5K2ctsBXKW+63AzRezi8U7HfHBApEnYq/Bv7Q/XDJQuCRa2MxFKaUTt5ONdqlkpX3zE3T2FRpCR4OomuQVNjzBmns7R3exAZtbyKP1L1OoXmIdW/JTYmH+/wouglt1PF6WaZUx2cw5WtjBZfQi3aBF/QpVVK2K2a+Bl3VttEFzQdV+4azr5tFWEIXSXR/t4uSfLko7sbz6byIpvMdg+l0tsRqv3pc4phUbFqdwR28NNmTS1yz7iMzWmta+21nmh7X/KNSA31cFmqbawD52jJ0DhnQ2ATfS7ZiHP3ZgrVc+usmnxkRKj8Ay65EmZ90dbKaZj1LRmr+rqxDMpL6r0pGHHxd5Y2Gdw5H17wju5DLP1BLAwQUAAAICAAAECHsM8BSTG0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UopRooWRgZlpkoFRsqVFmqmuubF5moGxeVJKqrGxiWVyqlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAECHssez8N3sCAAA0BQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAECHsM8BSTG0AAAB4AAAACQAkAAAAAAAAAAAAAADIAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAIADAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -9152,7 +9225,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 1
+  maxFrameTime: 10
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
   euclideanEmbedding:
@@ -9452,7 +9525,7 @@ GameObject:
   - component: {fileID: 839416501}
   - component: {fileID: 839416502}
   - component: {fileID: 839416503}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B3
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -9514,7 +9587,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -9543,7 +9616,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 839416501}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &839416503
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9573,7 +9654,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9601,7 +9682,7 @@ GameObject:
   - component: {fileID: 844864689}
   - component: {fileID: 844864690}
   - component: {fileID: 844864691}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point L4
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -9663,7 +9744,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -132917156, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -9692,7 +9773,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 844864689}
+  sprites:
+  - {fileID: 21300000, guid: f2b3bc5dcf4016d4e9f8d96111c19e91, type: 2}
+  - {fileID: 21300000, guid: 9966f16355f3cb84fbc823c146227308, type: 2}
+  - {fileID: 21300000, guid: d34a0e1104b4b3848bf6a3e035965710, type: 2}
+  - {fileID: 21300000, guid: ad1249127f1066c4caf4a35f7a7d1deb, type: 2}
+  - {fileID: 21300000, guid: c88b244e22d0a594191d0511bca190f4, type: 2}
+  currentSprite: 0
 --- !u!61 &844864691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9722,7 +9811,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10219,7 +10308,7 @@ GameObject:
   - component: {fileID: 1026610183}
   - component: {fileID: 1026610184}
   - component: {fileID: 1026610185}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B6
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -10281,7 +10370,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -10310,7 +10399,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1026610183}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &1026610185
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10340,7 +10437,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10945,7 +11042,7 @@ GameObject:
   - component: {fileID: 1110424533}
   - component: {fileID: 1110424534}
   - component: {fileID: 1110424535}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B4
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -11007,7 +11104,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -11036,7 +11133,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1110424533}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &1110424535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11066,7 +11171,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11094,7 +11199,7 @@ GameObject:
   - component: {fileID: 1119570948}
   - component: {fileID: 1119570949}
   - component: {fileID: 1119570950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U4
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -11156,7 +11261,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1995172651, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -11180,12 +11285,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 1119570948}
+  sprites:
+  - {fileID: 21300000, guid: f12aec220f10c2c44afe5afae012ee21, type: 2}
+  - {fileID: 21300000, guid: ad5df8ab2e416c949b8cfc34be37da32, type: 2}
+  - {fileID: 21300000, guid: 401de802e7ded334783dbf4c39c6d36c, type: 2}
+  - {fileID: 21300000, guid: edcba617299a0844996fa85d32137264, type: 2}
+  currentSprite: 0
 --- !u!61 &1119570950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11215,7 +11327,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11994,7 +12106,7 @@ GameObject:
   - component: {fileID: 1285350089}
   - component: {fileID: 1285350090}
   - component: {fileID: 1285350091}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B5
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -12056,7 +12168,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -12085,7 +12197,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1285350089}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &1285350091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12115,7 +12235,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -17067,7 +17187,7 @@ GameObject:
   - component: {fileID: 1379728988}
   - component: {fileID: 1379728990}
   - component: {fileID: 1379728991}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U3.2
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -17150,7 +17270,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1240839988, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -17180,6 +17300,9 @@ MonoBehaviour:
   fixing: 1
   onRange: 0
   hitSpeed: 4
+  sR: {fileID: 0}
+  sprites: []
+  currentSprite: 0
 --- !u!61 &1379728991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17209,7 +17332,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -17449,7 +17572,7 @@ GameObject:
   - component: {fileID: 1417785870}
   - component: {fileID: 1417785871}
   - component: {fileID: 1417785872}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point L5
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -17511,7 +17634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -132917156, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -17540,7 +17663,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1417785870}
+  sprites:
+  - {fileID: 21300000, guid: f2b3bc5dcf4016d4e9f8d96111c19e91, type: 2}
+  - {fileID: 21300000, guid: 9966f16355f3cb84fbc823c146227308, type: 2}
+  - {fileID: 21300000, guid: d34a0e1104b4b3848bf6a3e035965710, type: 2}
+  - {fileID: 21300000, guid: ad1249127f1066c4caf4a35f7a7d1deb, type: 2}
+  - {fileID: 21300000, guid: c88b244e22d0a594191d0511bca190f4, type: 2}
+  currentSprite: 0
 --- !u!61 &1417785872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17570,7 +17701,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -17778,7 +17909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1530947080
 Transform:
   m_ObjectHideFlags: 0
@@ -18194,7 +18325,7 @@ GameObject:
   - component: {fileID: 1612159976}
   - component: {fileID: 1612159977}
   - component: {fileID: 1612159978}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R6
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -18256,7 +18387,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2087189436, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -18280,12 +18411,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 1612159976}
+  sprites:
+  - {fileID: 21300000, guid: 4627612ceb08d5f4e82a107b980015e4, type: 2}
+  - {fileID: 21300000, guid: 6517a577a3e37924ba0f270ab3cf18ec, type: 2}
+  - {fileID: 21300000, guid: c2f6917f8158a49418550261f7cbec45, type: 2}
+  - {fileID: 21300000, guid: d3574be07b788f94481f6d38dd7c39b0, type: 2}
+  currentSprite: 0
 --- !u!61 &1612159978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18315,7 +18453,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18348,7 +18486,7 @@ GameObject:
   - component: {fileID: 1632785014}
   - component: {fileID: 1632785015}
   - component: {fileID: 1632785016}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R2
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -18410,7 +18548,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1157915082, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -18434,12 +18572,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 1632785014}
+  sprites:
+  - {fileID: 21300000, guid: 179c8771e9b2eca4f85d22fc0efd6f5a, type: 2}
+  - {fileID: 21300000, guid: b23dcfbf1e509be48a74dafedf95cd6f, type: 2}
+  - {fileID: 21300000, guid: 42007168d9de22140aa266d1ff20f9d7, type: 2}
+  - {fileID: 21300000, guid: f86bebe9b5452fb4f9f3ecf4cf4503d3, type: 2}
+  currentSprite: 0
 --- !u!61 &1632785016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18469,7 +18614,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18600,7 +18745,8 @@ GameObject:
   - component: {fileID: 1715684484}
   - component: {fileID: 1715684485}
   - component: {fileID: 1715684486}
-  m_Layer: 0
+  - component: {fileID: 1715684487}
+  m_Layer: 11
   m_Name: Entry point R1
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -18662,7 +18808,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 39568181, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -18691,7 +18837,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1715684484}
+  sprites:
+  - {fileID: 21300000, guid: 36fd46c9b5bf9f6428f3fbe863d06e1d, type: 2}
+  - {fileID: 21300000, guid: 9dc5e634b93eea54ebf9ace702a25603, type: 2}
+  - {fileID: 21300000, guid: 2de9814a3c1ab344899a88ad94893a26, type: 2}
+  - {fileID: 21300000, guid: d55f1d0234dc3334a9d552b0d86d3fb3, type: 2}
+  - {fileID: 21300000, guid: 2c64a5aa7e6739745b64b721523f73c2, type: 2}
+  currentSprite: 0
 --- !u!61 &1715684486
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18721,7 +18875,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18737,6 +18891,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &1715684487
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715684482}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 228cb4400515f2c49aef5cf8f015c8eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1741466736
 GameObject:
   m_ObjectHideFlags: 0
@@ -18860,7 +19035,7 @@ GameObject:
   - component: {fileID: 1757921857}
   - component: {fileID: 1757921858}
   - component: {fileID: 1757921859}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R7
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -18922,7 +19097,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1930152250, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -18946,12 +19121,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 1757921857}
+  sprites:
+  - {fileID: 21300000, guid: fb8382f5bf6fc814a9a14a1ce431cdde, type: 2}
+  - {fileID: 21300000, guid: 890d58347e8ce93469d601271e98d036, type: 2}
+  - {fileID: 21300000, guid: b6e0d6f3b0268a34889c6202092d0ac6, type: 2}
+  - {fileID: 21300000, guid: 265aeb4f2d956e0409300aa808786691, type: 2}
+  currentSprite: 0
 --- !u!61 &1757921859
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18981,7 +19163,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19228,75 +19410,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4296796637748473551, guid: 76155d22ad1706c43b3bc1bbc2bcd772, type: 3}
   m_PrefabInstance: {fileID: 662501176}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1821776663 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
-  m_PrefabInstance: {fileID: 1999098035}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1821776664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821776663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c1d44d9c6f9db4896901a91f933f76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 8336428574614841253, guid: 53659748ccaaca24f8c8bbb7f325ba10, type: 3}
-  - {fileID: 7891014777054083441, guid: 8a4833b3dd5e91f44944566c355ff343, type: 3}
-  - {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
-  - {fileID: 9082559412315700598, guid: 1b44a82fe99cd98408545e9f3a7b7490, type: 3}
-  WeaponIndex: 2
-  ItemAnimator: {fileID: 1240814590}
---- !u!61 &1821776668
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821776663}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.11, y: 0.93}
-    newSize: {x: 0.11, y: 0.93}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.11, y: 0.93}
-  m_EdgeRadius: 0
 --- !u!1 &1855722541
 GameObject:
   m_ObjectHideFlags: 0
@@ -19309,7 +19422,7 @@ GameObject:
   - component: {fileID: 1855722543}
   - component: {fileID: 1855722544}
   - component: {fileID: 1855722545}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point B2
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -19371,7 +19484,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1564820711, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -19400,7 +19513,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1855722543}
+  sprites:
+  - {fileID: 21300000, guid: c01fcf1a213f7694396ad84544983016, type: 2}
+  - {fileID: 21300000, guid: db966a0f6d9f64540b09088e77b86ae7, type: 2}
+  - {fileID: 21300000, guid: 031eca15daf7d6c4aa535300497a35f3, type: 2}
+  - {fileID: 21300000, guid: c9d2a3fa41ef93e43b2f11b49aa1b8e1, type: 2}
+  - {fileID: 21300000, guid: c9bec56e17b86bb40a2fde11c61bb227, type: 2}
+  currentSprite: 0
 --- !u!61 &1855722545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19430,7 +19551,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21215,7 +21336,7 @@ GameObject:
   - component: {fileID: 1973667935}
   - component: {fileID: 1973667936}
   - component: {fileID: 1973667937}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U2
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -21277,7 +21398,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 400959111, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -21301,12 +21422,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 1973667935}
+  sprites:
+  - {fileID: 21300000, guid: 2be694ad003917346a89fabdf0906dc9, type: 2}
+  - {fileID: 21300000, guid: f405b018c8efc8f48850d210fd0a7277, type: 2}
+  - {fileID: 21300000, guid: 169fe79b7d2dfa14c94000e7b1e8ff51, type: 2}
+  - {fileID: 21300000, guid: 9e07a07063e64144e8a15681b3b97221, type: 2}
+  currentSprite: 0
 --- !u!61 &1973667937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21336,7 +21464,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21432,7 +21560,7 @@ GameObject:
   - component: {fileID: 1982404189}
   - component: {fileID: 1982404190}
   - component: {fileID: 1982404191}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point R4
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -21494,7 +21622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 39568181, guid: 07bb441f322d4a9429a038b09307223f, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -21523,7 +21651,15 @@ MonoBehaviour:
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 8
+  sR: {fileID: 1982404189}
+  sprites:
+  - {fileID: 21300000, guid: 36fd46c9b5bf9f6428f3fbe863d06e1d, type: 2}
+  - {fileID: 21300000, guid: 9dc5e634b93eea54ebf9ace702a25603, type: 2}
+  - {fileID: 21300000, guid: 2de9814a3c1ab344899a88ad94893a26, type: 2}
+  - {fileID: 21300000, guid: d55f1d0234dc3334a9d552b0d86d3fb3, type: 2}
+  - {fileID: 21300000, guid: 2c64a5aa7e6739745b64b721523f73c2, type: 2}
+  currentSprite: 0
 --- !u!61 &1982404191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21553,7 +21689,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21577,13 +21713,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 490057137510617646, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
+      propertyPath: ItemAnimator
+      value: 
+      objectReference: {fileID: 1240814590}
     - target: {fileID: 1345984680768434927, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7152502
+      value: -0.707
       objectReference: {fileID: 0}
     - target: {fileID: 1345984680768434927, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3870108
+      value: 1.379
       objectReference: {fileID: 0}
     - target: {fileID: 1345984680768434927, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21621,17 +21761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Katana
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3809594036852178793, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1821776668}
-    - targetCorrespondingSourceObject: {fileID: 5368412986945213568, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1821776664}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf8b95a711952df43bdc16cc2e00d251, type: 3}
 --- !u!1 &1999197388
 GameObject:
@@ -22382,9 +22515,9 @@ Transform:
   - {fileID: 1855722542}
   - {fileID: 839416500}
   - {fileID: 1110424532}
+  - {fileID: 488600701}
   - {fileID: 1285350088}
   - {fileID: 1026610182}
-  - {fileID: 488600701}
   - {fileID: 575780144}
   - {fileID: 158392697}
   - {fileID: 844864688}
@@ -22669,7 +22802,7 @@ GameObject:
   - component: {fileID: 2077658496}
   - component: {fileID: 2077658497}
   - component: {fileID: 2077658498}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Entry point U1
   m_TagString: Wall
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -22731,7 +22864,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1995172651, guid: 284e17e848c2c4847bc847bd637d2d67, type: 3}
   m_Color: {r: 0.69, g: 0.69, b: 0.69, a: 1}
   m_FlipX: 0
@@ -22755,12 +22888,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca513b0b4c8da9c41805d75c3dacc6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   damage: 1
   fixing: 1
   onRange: 0
-  hitSpeed: 4
+  hitSpeed: 6
+  sR: {fileID: 2077658496}
+  sprites:
+  - {fileID: 21300000, guid: f12aec220f10c2c44afe5afae012ee21, type: 2}
+  - {fileID: 21300000, guid: ad5df8ab2e416c949b8cfc34be37da32, type: 2}
+  - {fileID: 21300000, guid: 401de802e7ded334783dbf4c39c6d36c, type: 2}
+  - {fileID: 21300000, guid: edcba617299a0844996fa85d32137264, type: 2}
+  currentSprite: 0
 --- !u!61 &2077658498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22790,7 +22930,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -23071,7 +23211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2138567387
 Transform:
   m_ObjectHideFlags: 0
@@ -23373,6 +23513,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 39934989149815985, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: detailedGizmos
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084281163220606897, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084281163220606897, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: radius
+      value: 0.34
+      objectReference: {fileID: 0}
     - target: {fileID: 2540807815340283292, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.35
@@ -23413,9 +23565,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2540807815340283292, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5552511720999741729, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
       propertyPath: player
@@ -23455,6 +23615,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 582517896}
+    - targetCorrespondingSourceObject: {fileID: 4221612963009307112, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 582517902}
   m_SourcePrefab: {fileID: 100100000, guid: 4ba49fb6f1658de478258980a8dc39e5, type: 3}
 --- !u!1001 &3439487890257368064
 PrefabInstance:

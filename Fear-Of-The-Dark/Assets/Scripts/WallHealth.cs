@@ -16,6 +16,12 @@ public class WallHealth : MonoBehaviour
 
     public float hitSpeed;
 
+    public SpriteRenderer sR;
+
+    public Sprite[] sprites;
+
+    public int currentSprite;
+
     
    
     void Start()
@@ -31,7 +37,8 @@ public class WallHealth : MonoBehaviour
         {
             health = health - damage;
             
-            
+            sR.sprite = sprites[currentSprite];
+            currentSprite++;
         }
     }
 
@@ -75,6 +82,8 @@ public class WallHealth : MonoBehaviour
        if (onRange == true && health <= 0)
        {
             gameObject.tag = "DestroyedWall";
+            gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+            gameObject.layer = 0;
        }
     }
 }
