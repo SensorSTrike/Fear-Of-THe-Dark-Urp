@@ -9,8 +9,7 @@ public class PlayerController : MonoBehaviour
     private float scrollCooldown = 1.0f; // Cooldown time between changes in seconds
     private float lastScrollTime; // To keep track of the last time the scroll input was registered
 
-    [SerializeField]
-    private float rotationSpeed;
+   
    
     public Vector3 targetPosition;
     public bool isMoving = false;
@@ -51,8 +50,7 @@ public class PlayerController : MonoBehaviour
         {
             MoveTowardsTarget();
 
-            Quaternion toRotation = Quaternion.LookRotation(Vector3.forward, targetPosition);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+            
         }
 
         // Check for mouse wheel scroll input and enforce cooldown

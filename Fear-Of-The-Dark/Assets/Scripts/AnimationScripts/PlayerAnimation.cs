@@ -17,7 +17,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         // Used to get access to PlayerController script
         playerController = GetComponent<PlayerController>();
-        playerController = GetComponent<PlayerController> ();
+        
         
     }
 

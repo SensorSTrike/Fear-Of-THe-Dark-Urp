@@ -20,6 +20,9 @@ namespace Pathfinding {
 		public Transform target;
 		public Transform player;
 		public List<Transform> targetWalls;
+		private Vector3 moveDirection;
+
+		public Animator anim;
         
        
 
@@ -31,6 +34,19 @@ namespace Pathfinding {
 			targetWalls = GameObject.FindGameObjectsWithTag("Wall").Select(go => go.transform).ToList();
 			EnemyDestination();
             NoWallFound();
+        }
+
+		
+
+		void ProcessMovement()
+		{
+            moveDirection = (target.position - transform.position).normalized;
+        }
+
+        void Animate()
+        {
+            anim.SetFloat("Horizontal", moveDirection.x);
+            anim.SetFloat("Vertical", moveDirection.y);
         }
 
         void OnEnable () {
@@ -75,7 +91,8 @@ namespace Pathfinding {
 		{
 			if (target != null && ai != null) ai.destination = target.position;
 
-			
+			ProcessMovement();
+			Animate();
         }
 	}
 }

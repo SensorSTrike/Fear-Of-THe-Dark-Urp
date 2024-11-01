@@ -22,6 +22,12 @@ public class WallHealth : MonoBehaviour
 
     public int currentSprite;
 
+    public Transform instPos;
+
+    public GameObject WallParticleHP4;
+    public GameObject WallParticleHP2;
+    public GameObject WallParticleHP0;
+
     
    
     void Start()
@@ -39,6 +45,22 @@ public class WallHealth : MonoBehaviour
             
             sR.sprite = sprites[currentSprite];
             currentSprite++;
+        }
+    }
+
+    void wallParticles()
+    {
+        if (health == 4)
+        {
+            Instantiate(WallParticleHP4, instPos);
+        }
+        else if (health == 2) 
+        {
+            Instantiate(WallParticleHP2, instPos);
+        }
+        else if (health == 0)
+        {
+            Instantiate(WallParticleHP0, instPos);
         }
     }
 
@@ -74,6 +96,8 @@ public class WallHealth : MonoBehaviour
         if (onRange == true && health > 0)
         {
             destroyWall();
+
+            wallParticles();
 
             onRange = false;
             StartCoroutine(HitSpeedCoroutine());
