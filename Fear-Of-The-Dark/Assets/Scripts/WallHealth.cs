@@ -54,11 +54,11 @@ public class WallHealth : MonoBehaviour
         {
             Instantiate(WallParticleHP4, instPos);
         }
-        else if (health == 2) 
+        if (health == 2) 
         {
             Instantiate(WallParticleHP2, instPos);
         }
-        else if (health == 0)
+        if (health == 0)
         {
             Instantiate(WallParticleHP0, instPos);
         }
