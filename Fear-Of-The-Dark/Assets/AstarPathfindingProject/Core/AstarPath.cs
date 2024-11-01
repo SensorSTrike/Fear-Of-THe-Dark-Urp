@@ -25,8 +25,16 @@ using Thread = System.Threading.Thread;
 /// </summary>
 [HelpURL("http://arongranberg.com/astar/docs/class_astar_path.php")]
 public class AstarPath : VersionedMonoBehaviour {
-	/// <summary>The version number for the A* %Pathfinding Project</summary>
-	public static readonly System.Version Version = new System.Version(4, 2, 17);
+	//public int waitTime;
+	//public bool canSkan;
+
+  //  public void Start()
+  //  {
+		//StartCoroutine(AgainSKannerCoroutine());
+  //  }
+
+    /// <summary>The version number for the A* %Pathfinding Project</summary>
+    public static readonly System.Version Version = new System.Version(4, 2, 17);
 
 	/// <summary>Information about where the package was downloaded</summary>
 	public enum AstarDistribution { WebsiteDownload, AssetStore, PackageManager };
@@ -1042,6 +1050,7 @@ public class AstarPath : VersionedMonoBehaviour {
 	public void UpdateGraphs (Bounds bounds, float delay) {
 		UpdateGraphs(new GraphUpdateObject(bounds), delay);
 	}
+
 
 	/// <summary>
 	/// Update all graphs using the GraphUpdateObject after delay seconds.
@@ -2160,4 +2169,23 @@ public class AstarPath : VersionedMonoBehaviour {
 
 		return nearestNode;
 	}
+
+
+
+	//IEnumerator AgainSKannerCoroutine()
+	//{
+	//	yield return new WaitForSeconds(waitTime);
+	//	canSkan = true;
+		
+	//}
+
+ //   private void FixedUpdate()
+ //   {
+ //       if (canSkan == true)
+	//	{
+	//		AstarPath.active.Scan();
+	//	}
+ //   }
+
+
 }

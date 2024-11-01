@@ -22,7 +22,7 @@ namespace Pathfinding {
 		public List<Transform> targetWalls;
 		private Vector3 moveDirection;
 
-		public int timeToWait;
+		
 		public Animator anim;
         
        
@@ -35,7 +35,7 @@ namespace Pathfinding {
 			targetWalls = GameObject.FindGameObjectsWithTag("Wall").Select(go => go.transform).ToList();
 			EnemyDestination();
             NoWallFound();
-			StartCoroutine(venaaSekka());
+			
         }
 
 		
@@ -79,20 +79,14 @@ namespace Pathfinding {
 			}
 		}
 
-		IEnumerator venaaSekka()
-		{
-			yield return new WaitForSeconds(timeToWait);
-		}
+		
 
         private void OnTriggerStay2D(Collider2D collision)
         {
 			if (collision.CompareTag("DestroyedWall"))
 			{
-				target = player;
-				AstarPath.active.Scan();
-				StartCoroutine(venaaSekka());
-				
-			}
+				target = player;			
+            }
         }
 
         /// <summary>Updates the AI's destination every frame</summary>

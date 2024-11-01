@@ -53,7 +53,9 @@ public class WallHealth : MonoBehaviour
         if (health == 4)
         {
             Instantiate(WallParticleHP4, instPos);
+            Debug.Log(instPos);
         }
+
         if (health == 2) 
         {
             Instantiate(WallParticleHP2, instPos);
